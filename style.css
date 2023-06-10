@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* LOGIN PAGE STYLES******************************************** */
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/pics/smiu2.jpg);
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    border-radius: 30px;
+    background-color: #ececece8;
+    box-shadow: 2px 5px 5px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid red; */
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 50%;
+    border-right: 2px solid rgba(71, 71, 71, 0.486) ;
+
+    /* border: 2px solid red; */
+}
+
+.logo-div img{
+    height: 300px;
+}
+
+
+
+.input-fields{
+    padding: 10px;
+    width: 210px;
+    border-radius: 0;
+    border: none;
+    outline: 1px solid grey;
+        margin-top: 10px;
+}
+
+.input-fields:focus{
+    transition: 400ms;
+    transform: scale(1.05);
+}
+
+.main-heading{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: rgb(37, 37, 37);
+    font-family: 'PT Serif', serif;   
+}
+
+.input-div{
+    padding: 10px;
+
+}
+
+
+
+.fas{
+    color: grey;
+    padding-right: 10px;
+}
+
+.login-btn{
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid rgb(0, 40, 78);
+    background-color: rgb(0, 72, 139);
+    color: white;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+
+.login-btn:hover{
+    transition: 400ms;
+    color: rgb(0, 72, 139);
+    background-color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* STUDENT DASHBOARD STYLES***************************************** */
+
+.top-section{
+    width: 100%;
+    height: auto;
+    /* padding-bottom: 30px; */
+    background-image: url(./pics/booksbg.jpg);
+    background-position: 0px 300px;
+    background-size: cover;
+    
+}
+
+.account-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 72, 139);
+    /* padding: 10px 20px 10px 20px; */
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.account-icon:hover{
+    cursor: pointer;
+}
+
+.top-cover-div{
+    width: 100%;
+    height: 100%;
+    background-color: #000000d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Dashboard-text{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bolder ;
+}
+
+.lighter{
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.admin-link{
+    color: rgb(0, 72, 139);
+    font-weight: bold;
+}
+
+.options-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: auto;
+}
+
+.option-btn{
+    padding: 15px 30px 15px 30px;
+    margin: 10px 20px 10px 20px;
+    border: none;
+    background-color: rgb(0, 72, 139);
+    border-radius: 10px;
+    box-shadow:  1.5px 1.5px 3px black;
+    color: white;
+    font-size: 18px;
+    font-family: 'PT Serif', serif;   
+    font-weight: 400;    
+    cursor: pointer;
+  
+}
+
+.option-btn:hover{
+    transition: 400ms;
+    transform:scale(1.05);
+}
+
+.enrolled-course{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 97%;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Roboto', serif;   
+    font-weight: 500;
+    color: rgb(95, 95, 95);
+    border: 2px solid rgba(114, 114, 114, 0.432);
+}
+
+.align-center{
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}
+
+.coulumn{
+    color: rgb(39, 110, 177);
+
+    border-bottom: 2px solid rgb(78, 78, 78);
+}
+
+.course-field{
+    padding: 5px 10px 5px 10px;
+    /* width: 80px; */
+    margin: 10px 0px 20px 0px;
+}
+
+.course-field:focus{
+    transition: 400ms;
+    transform: scale(1.05);
+}
+
+.field-label{
+    font-size: 15px;
+    font-family: 'Roboto', serif;   
+    font-weight: 700;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.newPanel{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 90%;
+    border: 2px solid rgb(0, 72, 139);
+    box-shadow: 1px 1px 5px rgb(0, 72, 139);
+    border-radius: 10px;
+    position: relative;
+}
+
+.fa-times{
+    cursor: pointer;
+    position: absolute;
+    padding: 3px 5px 3px 4px;
+    right: 0;
+    top: 0;
+    margin: 12px 12px 0px 0px;
+    color:  rgb(168, 2, 2);
+    background-color: #b4aeae;
+}
+
+.course-field-div{
+    /* border: 2px solid red; */
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.enroll-btn{
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid rgb(0, 40, 78);
+    background-color: rgb(0, 72, 139);
+    color: white;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+
+.enroll-btn:hover{
+    transition: 400ms;
+    color: rgb(0, 72, 139);
+    background-color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.acc-details{
+    position: absolute;
+    top: 110px;
+    height: fit-content;
+    padding: 10px;
+    width: fit-content;
+    background-color: #ffffff;
+    border: 2px solid rgb(0, 72, 139);
+    border-radius: 10px;
+    box-shadow: 2px 3px 7px;
+    margin: 0px 10px 0px 10px;
+
+}
+.acc-details-text{
+    background-color: #e7e7d1;
+    font-family: 'PT Serif', serif;   
+}
+.fa-sign-out-alt{
+    color: white;
+    font-size: 17px;
+}
+
+
+.logout-btn{
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid rgb(0, 40, 78);
+    background-color: rgb(0, 72, 139);
+    color: white;
+    font-weight: bolder;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.logout-btn:hover{
+    transition: 400ms;
+    color: rgb(0, 72, 139);
+    background-color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.logout-btn:hover .fa-sign-out-alt{
+    color: rgb(0, 72, 139);
+}
+
+.disable{
+    display: none;
+}
+
+.markstable{
+    border: 2px solid grey;
+    width: 100%; 
+    margin: 20px 0px 20px 0px;
+}
+
+.markstable-row{
+    text-align: center;
+}
+
+.markstable-input{
+    border: none;
+    height: 25px;
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: 2px solid grey;
+    border-radius: 5px;
+
+}
+
+.markstable-input:focus{
+    outline: 2px solid rgb(0, 40, 78);
+    box-shadow: 0px 0px 10px rgb(0, 40, 78);
+}
+
+footer{
+    width: 100%;
+    height: 20%;
+    margin: 50px 0px 0px 0px;
+    background-color: rgb(0, 25, 49);
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.profileLink{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
