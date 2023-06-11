@@ -1,22 +1,5 @@
-    import { Student1, Student2, Student3, Student4, Student5, Student6, Student7 } from "../data.js";    
+    import { Student1, Student2, Student3, Student4, Student5, Student6, Student7 } from "/data.js";    
 
-    // import mysql from 'mysql';
-    // const connection = mysql.createConnection({
-    //     host: 'localhost',
-    //     user: 'root',
-    //     password: '',
-    //     database: 'cms'
-    //   });
-    //   connection.connect((err) => {
-    //     if (err) throw err;
-    //     console.log('Connected to MySQL database');
-    //     // Start executing your database operations here
-    //   });
-    //   connection.query('SELECT * FROM your_table', (err, results) => {
-    //     if (err) throw err;
-    //     console.log(results);
-    //     // Perform further operations with the retrieved data
-    //   });
 
     const containerDiv =  document.getElementById('container');
 

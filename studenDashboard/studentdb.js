@@ -209,7 +209,7 @@ function accDetails(){
 
     logoutBtn.innerText = 'LOGOUT';
     logoutBtn.className = 'logout-btn';
-    logoutBtn.addEventListener('click', closeAccDetails)
+    logoutBtn.addEventListener('click', logoutToMain)
 
     if(accDetailsDiv.className.includes('disable')){
 
@@ -230,8 +230,8 @@ function accDetails(){
     }
 }
 
-function closeAccDetails(){
-    window.location.href = '/index/index.html'; 
+function logoutToMain(){
+    window.location.href = '/index.html'; 
 }
 
 function changePassword(){

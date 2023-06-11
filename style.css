@@ -26,6 +26,7 @@
     flex-direction: row;
     width: 70%;
     border-radius: 30px;
+    /* backdrop-filter: blur; */
     background-color: #ececece8;
     box-shadow: 2px 5px 5px;
 }
