@@ -99,6 +99,10 @@
     padding-right: 10px;
 }
 
+.blue-color{
+    color:  rgb(0, 72, 139);
+}
+
 .login-btn{
     margin-top: 30px;
     padding: 10px 20px 10px 20px;
@@ -227,7 +231,6 @@
 
 .coulumn{
     color: rgb(39, 110, 177);
-
     border-bottom: 2px solid rgb(78, 78, 78);
 }
 
@@ -287,6 +290,7 @@
 .course-field-div{
     /* border: 2px solid red; */
     padding: 30px;
+    font-size: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -311,6 +315,7 @@
 }
 
 .acc-details{
+    font-size: 15px;
     position: absolute;
     top: 110px;
     height: fit-content;
@@ -409,4 +414,8 @@ footer{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: bolder;
+}
+
+.fa-eye:hover{
+    cursor: pointer;
 }

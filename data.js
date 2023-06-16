@@ -5,7 +5,7 @@
         StId : "CSC-22S-136",
         Password : "$CSC@136",
         FatherName : "M Zaheer",
-        semester : "",
+        semester : "Semester1",
         enrollmentStatus: "Not Enrolled"
     }
     export const Student2 = {
@@ -14,7 +14,7 @@
         StId : "CSC-22S-142",
         Password : "$CSC@142",
         FatherName : "M Amin",
-        semester : "",
+        semester : "Semester1",
         enrollmentStatus: "Not Enrolled"
 
     }
@@ -24,7 +24,7 @@
         StId : "CSC-22S-126",
         Password : "$CSC@126",
         FatherName : "Saqib Ali",
-        semester : "",
+        semester : "Semester1",
         enrollmentStatus: "Not Enrolled"
 
     }
@@ -34,7 +34,7 @@
         StId : "CSC-22S-115",
         Password : "$CSC@115",
         FatherName : "M Imran",
-        semester : "",
+        semester : "Semester1",
         enrollmentStatus: "Not Enrolled"
 
     }
@@ -44,7 +44,7 @@
         StId : "CSC-22S-190",
         Password : "$CSC@190",
         FatherName : "Mir Javed Khan",
-        semester : "",
+        semester : "Semester1",
         enrollmentStatus: "Not Enrolled"
 
     }
@@ -55,7 +55,7 @@
         StId : "CSC-22S-125",
         Password : "$CSC@125",
         FatherName : "Iqbal Hussain",
-        semester : "",
+        semester : "Semester1",
         enrollmentStatus: "Not Enrolled"
     }
 
@@ -65,12 +65,12 @@
         StId : "CSC-22S-160",
         Password : "$CSC@160",
         FatherName : "Ejaz Hussain",
-        semester : "",
+        semester : "Semester1",
         enrollmentStatus: "Not Enrolled"
     }
 
     export const semester1 = {
-        course1: ["Programming Fundamentals", "1101", "Amin Khawaja"],
+        course1: ["Programming Fundamentals", "1101"],
         course2: ["Applied Physics", "1102", ],
         course3: ["English Comprehension & Composition", "1103"],
         course4: ["Introduction to Computer Technology", "1104"],
