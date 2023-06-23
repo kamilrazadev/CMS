@@ -1,22 +1,3 @@
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    h1 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-    h2 {
-      font-size: 18px;
-      margin-top: 20px;
-      margin-bottom: 10px;
-    }
-    p {
-      margin-bottom: 10px;
-    }
-  </style>
-
   <h1>Course Management System (CMS) - GitHub README</h1>
   <video width="640" height="360" controls>
     <source src="path/to/your/video.mp4" type="video/mp4">
