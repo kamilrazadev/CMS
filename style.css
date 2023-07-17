@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     background-image: url(/pics/smiu2.jpg);
 }
 
@@ -26,7 +26,6 @@
     flex-direction: row;
     width: 70%;
     border-radius: 30px;
-    /* backdrop-filter: blur; */
     background-color: #ececece8;
     box-shadow: 2px 5px 5px;
 }
@@ -39,8 +38,6 @@
     padding: 50px;
     height: 100%;
     width: 50%;
-    /* border: 2px solid red; */
-
     font-family: 'Roboto', sans-serif;
 }
 
@@ -55,15 +52,11 @@
     padding: 50px;
     width: 50%;
     border-right: 2px solid rgba(71, 71, 71, 0.486) ;
-
-    /* border: 2px solid red; */
 }
 
 .logo-div img{
     height: 300px;
 }
-
-
 
 .input-fields{
     padding: 10px;
@@ -86,6 +79,49 @@
     color: rgb(37, 37, 37);
     font-family: 'PT Serif', serif;   
 }
+
+@media (max-width: 1030px) {
+    .center-div{
+        flex-direction: column;
+    }
+    .logo-div{
+        width: 90%;
+        border: none;
+        border-bottom: 2px solid rgba(71, 71, 71, 0.486) ;
+    }
+    .logo-div img{
+        height: 200px;
+    }
+    .main-container{
+        height: 180vh;
+    }
+    .container{
+        width: 90%;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 430px) {
+
+    .center-div{
+        width: 90%;
+    }
+}
+
+@media (max-width: 375px) {
+    .input-fields{
+        width: 170px;
+    }
+    .main-heading{
+        font-size: 25px;
+    }
+    .logo-div img{
+        height: 150px;
+    }
+}
+
+
+
 
 .input-div{
     padding: 10px;

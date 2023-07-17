@@ -101,7 +101,7 @@ loginBtn.onclick =  function login(){
     //     }
 
         if(getId == 'admin@12' && getPassword == 'adminpass@12'){
-            window.location.href = '/admin/admin.html';
+            window.location.href = './admin/admin.html';
         } else {
             containerDiv.innerHTML += `<p style="color: red; font-weight: bolder;">Wrong Details</p>`
         }
