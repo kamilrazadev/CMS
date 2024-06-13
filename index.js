@@ -60,45 +60,45 @@ loginBtn.onclick =  function login(){
     let getId = idInput.value ;
     let getPassword = passwordInput.value;
 
-    // for(let i=0; i<AllStudents.length; i++){
+    for(let i=0; i<AllStudents.length; i++){
 
-    //     get(child(dbref, "Students/" + AllStudents[i])).then((snapshot)=>{
-    //         if(snapshot.exists()){
-    //             if(getId == snapshot.val().StId && getPassword == snapshot.val().Password){
-    //                 window.location.href = '/studenDashboard/studendashboard.html';
-    //                 localStorage.setItem('StudentNumber', AllStudents[i]);
+        get(child(dbref, "Students/" + AllStudents[i])).then((snapshot)=>{
+            if(snapshot.exists()){
+                if(getId == snapshot.val().StId && getPassword == snapshot.val().Password){
+                    window.location.href = '/studenDashboard/studendashboard.html';
+                    localStorage.setItem('StudentNumber', AllStudents[i]);
 
-    //                 localStorage.setItem('StudentName', snapshot.val().StName);
-    //                 localStorage.setItem('StudentId', snapshot.val().StId);
-    //                 localStorage.setItem('StudentFather', snapshot.val().FatherName);
-    //                 localStorage.setItem('StudentSemester', snapshot.val().semester);
-    //                 localStorage.setItem('EnrollmentStatus', snapshot.val().enrollmentStatus);
-    //             } 
+                    localStorage.setItem('StudentName', snapshot.val().StName);
+                    localStorage.setItem('StudentId', snapshot.val().StId);
+                    localStorage.setItem('StudentFather', snapshot.val().FatherName);
+                    localStorage.setItem('StudentSemester', snapshot.val().semester);
+                    localStorage.setItem('EnrollmentStatus', snapshot.val().enrollmentStatus);
+                } 
 
-    //         } else {
-    //           alert("Wrong Details!");
-    //         }
-    //       })
-    // }
+            } else {
+              alert("Wrong Details!");
+            }
+          })
+    }
 
-    // for(let i=0; i<AllSubjects.length; i++){
-    //     get(child(dbref, "Teachers/" + AllSubjects[i])).then((snapshot)=>{
-    //         if(snapshot.exists()){
-    //             if(getId == snapshot.val().TeacherId && getPassword == snapshot.val().Password){
-    //                 window.location.href = '/teacherDashboard/teacherdashboard.html';
-    //                 localStorage.setItem('TeacherSubject', AllSubjects[i]);
-    //                 localStorage.setItem('TeacherName', snapshot.val().TeacherName);
-    //                 localStorage.setItem('TeacherId', snapshot.val().TeacherId);
-    //                 localStorage.setItem('Designation', snapshot.val().Designation);
+    for(let i=0; i<AllSubjects.length; i++){
+        get(child(dbref, "Teachers/" + AllSubjects[i])).then((snapshot)=>{
+            if(snapshot.exists()){
+                if(getId == snapshot.val().TeacherId && getPassword == snapshot.val().Password){
+                    window.location.href = '/teacherDashboard/teacherdashboard.html';
+                    localStorage.setItem('TeacherSubject', AllSubjects[i]);
+                    localStorage.setItem('TeacherName', snapshot.val().TeacherName);
+                    localStorage.setItem('TeacherId', snapshot.val().TeacherId);
+                    localStorage.setItem('Designation', snapshot.val().Designation);
                     
-    //             } 
+                } 
 
-    //         } else {
-    //           alert("Wrong Details!");
-    //         }
-    //       })
+            } else {
+              alert("Wrong Details!");
+            }
+          })
 
-    //     }
+        }
 
         if(getId == 'admin@12' && getPassword == 'adminpass@12'){
             window.location.href = './admin/admin.html';
